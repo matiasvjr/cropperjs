@@ -1,11 +1,11 @@
 /*!
- * Cropper.js v1.2.2
+ * Cropper.js v1.2.2-2m.0.0
  * https://github.com/fengyuanchen/cropperjs
  *
  * Copyright (c) 2015-2018 Chen Fengyuan
  * Released under the MIT license
  *
- * Date: 2018-01-03T13:27:18.062Z
+ * Date: 2018-06-27T03:33:55.953Z
  */
 
 var WINDOW = typeof window !== 'undefined' ? window : {};
@@ -51,9 +51,9 @@ var EVENT_CROP_START = 'cropstart';
 var EVENT_DBLCLICK = 'dblclick';
 var EVENT_ERROR = 'error';
 var EVENT_LOAD = 'load';
-var EVENT_POINTER_DOWN = WINDOW.PointerEvent ? 'pointerdown' : 'touchstart mousedown';
-var EVENT_POINTER_MOVE = WINDOW.PointerEvent ? 'pointermove' : 'touchmove mousemove';
-var EVENT_POINTER_UP = WINDOW.PointerEvent ? 'pointerup pointercancel' : 'touchend touchcancel mouseup';
+var EVENT_POINTER_DOWN = 'touchstart mousedown';
+var EVENT_POINTER_MOVE = 'touchmove mousemove';
+var EVENT_POINTER_UP = 'touchend touchcancel mouseup';
 var EVENT_READY = 'ready';
 var EVENT_RESIZE = 'resize';
 var EVENT_WHEEL = 'wheel mousewheel DOMMouseScroll';

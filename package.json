@@ -1,7 +1,7 @@
 {
-  "name": "cropperjs",
+  "name": "2mundos-fengyuanchen-cropperjs",
   "description": "JavaScript image cropper.",
-  "version": "1.2.2",
+  "version": "1.2.2-2m.0.0",
   "main": "dist/cropper.common.js",
   "module": "dist/cropper.esm.js",
   "browser": "dist/cropper.js",
